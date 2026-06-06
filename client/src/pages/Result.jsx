@@ -12,7 +12,6 @@ const Result = () => {
   const onSubmitHandler = async (e) => {
   
 }
-
   return (
     <motion.form
     initial={{ opacity: 0.2, y: 100 }}
@@ -21,6 +20,7 @@ const Result = () => {
   viewport={{ once: true }}
     onSubmit={onSubmitHandler}
     className='flex flex-col min-h-[90vh] justify-center items-center'>
+
 
       <div>
         <div className='relative'>
@@ -63,5 +63,6 @@ text-sm p-0.5 mt-10 rounded-full'>
   </motion.form>
   );
 };
+
 
 export default Result;
