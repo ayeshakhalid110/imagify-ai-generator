@@ -16,8 +16,6 @@ const onClickHandler = () => {
         setShowLogin(true)
     }
 }
-
-
   return (
     <motion.div className='flex flex-col justify-center items-center text-center my-20'
   initial={{opacity:0.2, y:100}}
@@ -25,7 +23,6 @@ const onClickHandler = () => {
   whileInView={{ opacity: 1, y: 0 }}
   viewport={{ once: true }}
 >
-
      <motion.div className='text-stone-500 inline-flex text-center
 gap-2 bg-white px-6 py-1 rounded-full border
 border-neutral-500'
@@ -65,9 +62,6 @@ happen.</motion.p>
   Generate Images
   <img className="h-6" src={assets.star_group} alt="" />
 </motion.button>
-
-
-
 <motion.div
   initial={{ opacity: 0 }}
   animate={{ opacity: 1 }}
@@ -83,8 +77,6 @@ happen.</motion.p>
       alt="" key={index} width={70}/>
   ))}
 </motion.div>
-
-
 <motion.p
   initial={{ opacity: 0 }}
   animate={{ opacity: 1 }}
