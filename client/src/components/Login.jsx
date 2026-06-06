@@ -7,6 +7,8 @@ const Login = () => {
     const [state, setState] = useState('Login')
     const {setShowLogin} = useContext(AppContext)
     
+  
+
     useEffect(() => {
   document.body.style.overflow = 'hidden';
 
@@ -89,6 +91,4 @@ cursor-pointer' onClick={() => setState('Sign Up')}>Sign up</span></p>
     </div>
   )
 }
-
-
 export default Login
