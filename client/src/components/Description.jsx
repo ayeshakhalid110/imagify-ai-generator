@@ -8,6 +8,7 @@ const Description = () => {
   transition={{ duration: 1 }}
   whileInView={{ opacity: 1, y: 0 }}
   viewport={{ once: true }}
+
   className='flex flex-col items-center justify-center my-24 p-6
   md:px-28'>
     <h1 className='text-3xl sm:text-4xl font-semibold
