@@ -3,7 +3,6 @@ import { assets, plans } from '../assets/assets'
 import { AppContext } from '../context/AppContext'
 import { motion } from "framer-motion"
 
-
 const Buycredit = () => {
      const {user} = useContext(AppContext)
 
