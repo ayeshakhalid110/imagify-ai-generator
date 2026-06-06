@@ -2,6 +2,7 @@ import React from 'react'
 import { assets, testimonialsData } from '../assets/assets'
 import { motion } from "framer-motion"
 
+
 const Testimonials = () => {
 return (
   <motion.div
