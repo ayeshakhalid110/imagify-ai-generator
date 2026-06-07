@@ -16,7 +16,7 @@ const Steps = () => {
   it works</h1>
 
 
-  <p className='text-lg text-gray-600 mb-8'>Transform Words Into Stunning Images</p>
+  <p className='text-lg text-gray-600 mb-8'>Transform Words into stunning Images </p>
 
  <div className='space-y-4 w-full max-w-3xl text-sm'>
   {stepsData.map((item, index) => (

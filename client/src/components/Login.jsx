@@ -6,9 +6,6 @@ import { motion } from "framer-motion"
 const Login = () => {
     const [state, setState] = useState('Login')
     const {setShowLogin} = useContext(AppContext)
-    
-  
-
     useEffect(() => {
   document.body.style.overflow = 'hidden';
 
